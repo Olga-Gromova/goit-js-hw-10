@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+ 
 }
 
 body {
@@ -7,7 +8,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #a8aae7;
   color: #212121;
   line-height: 1.5;
 }
@@ -15,6 +16,22 @@ body {
 #search-box {
   font: inherit;
   padding: 8px;
+  display: flex;
+  margin: auto;
   max-width: 320px;
   margin-bottom: 16px;
+  text-align: center;
+  border-color: #a8aae7;
 }
+
+#search-box:focus {
+  width: 100%;
+}
+
+.country-list {
+  list-style: none;
+}
+
+
+
+
